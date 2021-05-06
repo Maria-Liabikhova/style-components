@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <button class="btn" :class="{'btn--green': isGreen}">I am a button!</button>
-  </div>
+  <button class="btn" :class="{'btn--green': isGreen}">I am a button!</button>
 </template>
 
 <script>
