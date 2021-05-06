@@ -1,7 +1,7 @@
 <template>
   <div>
     <card ><router-link to="/" class="card__link">Another page</router-link> </card>
-    <btn :isGreen='isGreen'></btn>
+    <btn class="border-test"></btn>
   </div>
 </template>
 
