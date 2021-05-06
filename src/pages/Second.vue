@@ -1,6 +1,6 @@
 <template>
   <div>
-    <card class="card--violet"><router-link to="/" class="card__link">Another page</router-link> </card>
+    <card class="card--violet" :titleClass="'card__title--green'" :textClass="'card__text--orange'"><router-link to="/" class="card__link">Another page</router-link> </card>
     <btn class="btn--green"></btn>
   </div>
 </template>
